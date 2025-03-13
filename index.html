@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GWCode - Soluções em Tecnologia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>GWCode</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Abrir menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Bem-vindo à GWCode</h2>
+        <p>
+          Soluções inovadoras em desenvolvimento de software e consultoria
+          tecnológica.
+        </p>
+        <a href="#servicos" class="btn">Conheça nossos serviços</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="about">
+      <div class="container">
+        <h2>Sobre Nós</h2>
+        <div class="about-content">
+          <p>
+            A GWCode é uma empresa especializada em desenvolvimento de software,
+            consultoria em TI e soluções personalizadas para negócios. Nossa
+            missão é transformar ideias em realidade através da tecnologia.
+          </p>
+          <img src="images/about.png" alt="Sobre a GWCode" />
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="services">
+      <div class="container">
+        <h2>Nossos Serviços</h2>
+        <div class="service-list">
+          <div class="service-item">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Desenvolvimento de Software</h3>
+            <p>
+              Soluções personalizadas para atender às necessidades do seu
+              negócio.
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-cogs"></i>
+            <h3>Consultoria em TI</h3>
+            <p>
+              Estratégias e planejamento para otimizar sua infraestrutura de TI.
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-network-wired"></i>
+            <h3>Integração de Sistemas</h3>
+            <p>
+              Conectamos diferentes sistemas para melhorar a eficiência
+              operacional.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contact">
+      <div class="container">
+        <h2>Contato</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 GWCode. Todos os direitos reservados.</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/company/gwcode" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
